@@ -8,12 +8,12 @@ import { faseUm } from "./src/scenes/FaseUm.js";
 import { FaseDois } from "./src/scenes/FaseDois.js";
 import { transicao1para2 } from "./src/scenes/transicao1para2.js";
 import { faseTres } from "./src/scenes/faseTres.js";
-import { FaseDoischao } from "../src/scenes/chaoCaindo.js";
+//import { FaseDoischao } from "../src/scenes/chaoCaindo.js";
 import { faseQuatro } from "./src/scenes/faseQuatro.js";
 import { faseCinco } from "./src/scenes/faseCinco.js";
 import { CreditsScene } from "./src/scenes/sceneCreditos.js";
 import { menu } from "./src/menu.js";
-import { bgMusic } from "./src/scenes/bgMusic.js";
+//import { bgMusic } from "./src/scenes/bgMusic.js";
 
 const config = {
   type: Phaser.AUTO,
@@ -51,7 +51,6 @@ const config = {
     faseUm,
     transicao1para2,
     FaseDois,
-    FaseDoischao,
     faseTres,
     scenePreFase4,
     faseQuatro,
@@ -59,7 +58,6 @@ const config = {
     faseCinco,
     CreditsScene,
     menu,
-    bgMusic,
   ],
 
 };
