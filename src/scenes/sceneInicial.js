@@ -8,11 +8,11 @@ export class sceneInicial extends Phaser.Scene {
     preload() {
         this.load.image("labBranco", "assets/Fases/sceneLBPassado/labBranco.png");
         this.load.image("objetosLab", "assets/Objetos/sceneLBPassado/partOne/objetosLabBNorm.png");
-        this.load.spritesheet("watson", "assets/personagens/watson.png", {
+        this.load.spritesheet("watson", "assets/Personagens/watson.png", {
             frameWidth: 64,
             frameHeight: 64,
         });
-        this.load.spritesheet("sophia", "assets/personagens/sophia.png", {
+        this.load.spritesheet("sophia", "assets/Personagens/sophia.png", {
             frameWidth: 64,
             frameHeight: 64,
         });
